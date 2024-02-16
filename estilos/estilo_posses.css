@@ -1,0 +1,53 @@
+/*ESTILO CARROS*/
+    .conteiner-posses{
+        margin-top: 10px;
+
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .carro{
+        background-color: var(--azul_primario);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+
+
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+
+/*BOTÕES DE EDIÇÃO*/
+    /*BOTÃO FORMULARIO*/
+    .div-btn{
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-1{
+        height: 25px;
+        width: 90px;
+        background-color: transparent;
+        border: solid black 1px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: 0.6s;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -ms-transition: 0.6s;
+        -o-transition: 0.6s;
+    }
+    .btn-1:hover{
+        background-color: black;
+        color: white;
+        border: solid gray 2px;
+    }

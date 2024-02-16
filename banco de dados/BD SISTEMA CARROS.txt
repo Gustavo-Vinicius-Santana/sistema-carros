@@ -1,0 +1,39 @@
+/*-------------------------CRIAÇÃO DA TABELA USUARIO----------------------------*/
+CREATE TABLE usuario(
+    ID_USUARIO int AUTO_INCREMENT NOT null,
+    NOME_USUARIO varchar(30) NOT null,
+    SENHA varchar(30) NOT null,
+    PRIMARY KEY (ID_USUARIO)
+)charset = utf8;
+
+
+/*-----------------------------CRIAÇÃO DA TABELA CARRO----------------------------*/
+CREATE TABLE carro(
+    ID_CARRO int AUTO_INCREMENT NOT null,
+    NOME_CARRO varchar(30),
+    MODELO varchar(30),
+    MARCA varchar(30),
+    PRECO numeric,
+    PRIMARY KEY (ID_CARRO)
+)charset = utf8;
+
+
+
+/*-------------------------------RELAÇÃO USUARIO E CARRO------------------------*/
+CREATE TABLE posse(
+    ID_POSSE int AUTO_INCREMENT NOT null,
+    PRIMARY KEY (ID_POSSE),
+
+    ID_CARRO_PK int NOT null,
+    FOREIGN KEY (ID_CARRO_PK) REFERENCES carro(ID_CARRO),
+    
+    ID_USUARIO_PK int NOT null,
+    FOREIGN KEY (ID_USUARIO_PK) REFERENCES usuario(ID_USUARIO)
+)charset = utf8;
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+/*ESTILO CONTEINER TEXTO*/
+    .text-introdut{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .conteiner-paragrafo{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+/*BOTÕES DE EDIÇÃO*/
+    /*BOTÃO FORMULARIO*/
+    .div-btn{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-1{
+        height: 30px;
+        width: 150px;
+        background-color: transparent;
+        background-color: white;
+        color: black;
+        border: solid black 1px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: 0.6s;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -ms-transition: 0.6s;
+        -o-transition: 0.6s;
+    }
+    .btn-1:hover{
+        background-color: var(--azul_secundario);
+        color: white;
+        border: solid gray 2px;
+    }
