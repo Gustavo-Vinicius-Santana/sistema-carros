@@ -1,3 +1,6 @@
+/*-------------------------CRIAÇÃO DO BANCO DE DADOS----------------------------*/
+CREATE DATABASE bd_sistema_carros;
+
 /*-------------------------CRIAÇÃO DA TABELA USUARIO----------------------------*/
 CREATE TABLE usuario(
     ID_USUARIO int AUTO_INCREMENT NOT null,
